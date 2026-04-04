@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: yelp-camp-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: yelp-camp
   ports:
